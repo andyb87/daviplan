@@ -49,7 +49,7 @@ services:
     environment:
       - DJANGO_SITENAME=datentool
       # settings file, either datentool.settings for productive use or datentool.settings_dev in development
-      - DJANGO_SETTINGS_MODULE=datentool.settings
+      - DJANGO_SETTINGS_MODULE=datentool.settings_dev
       - MODE_CAR_HOST=router-car
       - MODE_BIKE_HOST=router-bike
       - MODE_WALK_HOST=router-walk
